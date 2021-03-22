@@ -1,0 +1,26 @@
+body 
+{ font-family:sens-sarif;
+padding-left: 20%;
+padding-right: 20%;}
+
+label 
+{ font-size: 18px;
+display: block;
+padding-bottom: 10px;}
+  
+input
+{display: block;
+
+}  
+form
+{ background-color: rgba(224, 23, 231, 0.123);
+padding: 45px 45px 45px 45px;}
+
+.radio-inline{ display: inline-block;}
+
+#button-div{
+    float: left;
+}
+#text-feed{
+justify-self: unset;
+}

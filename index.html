@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+<link rel="stylesheet" href="survey.css">
+
+<title>Travel Survey Form</title>
+
+</head>
+
+<body>
+
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">What's your travel style</h1>
+
+<p id="description"> Before Puting Togather your Travel plan we would like you to complete a survey</p>
+
+<div class="form-div">
+
+<form id="survey-form" action=" ">
+
+<label id="name-label">name</label><input type="text" name="name" id="name" placeholder="name" required>
+
+<label id="email-label">email</label><input type="email" name="email" id="email" placeholder="email" required>
+
+<label id="number-label">duration of vacation</label><input type="number" name="duration" id="number" min="1" max="4" placeholder="number" required>  
+
+<label for="vacation spots">vacation spots:</label>
+
+<select id="dropdown" name="vacation spots">
+  <option value="alps">Alps</option>
+  <option value="tropics">Tropics</option>
+  <option value="beach">Beach</option>
+  <option value="metro">Metro</option>
+</select><br><br>
+
+<textarea id="text-feed" name="text-feed" rows="4" cols="50" placeholder="about your self">
+</textarea>
+
+
+<div id="radio-div">
+<input type="radio" class="radio-inline" id="Skydiving" name="vacation sports" value="Skydiving">
+<label class="radio-inline" for="Skydiving" >Skydiving</label><br>
+<input type="radio" class="radio-inline" id="Rock Climbing" name="vacation sports" value="Rock Climbing">
+<label class="radio-inline" for="Rock Climbing" >Rock Climbing</label><br>
+<input type="radio" class="radio-inline" id="Bungee Jumping" name="vacation sports" value="Bungee Jumping">
+<label  class="radio-inline" for="Bungee Jumping">Bungee Jumping</label>
+</div>
+
+<div id="checkbox-div">
+<input type="checkbox" id="Day spa" name="Day spa" value="Day spa">
+<label for="Day spa">Day spa</label>
+<input type="checkbox" id="Destination spa" name="Destination spa" value="Destination spa">
+<label for="Destination spa">Destination spa</label>
+<input type="checkbox" id="Health farms/Health spas" name="Health farms/Health spas" value="Health farms/Health spas">
+<label for="Health farms/Health spas">Health farms/Health spas</label>  
+</div>
+
+
+
+
+<button type="submit" id="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
